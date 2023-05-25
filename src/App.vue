@@ -8,7 +8,7 @@ import MainExperience from './components/MainBar/MainExperience.vue'
 import MainSkills from './components/MainBar/MainSkills.vue'
 import { defineComponent } from 'vue'
 import 'normalize.css/normalize.css'
-// import 'main.css/main.css'
+
 
 export default defineComponent({
   name: 'MyResume',
@@ -20,36 +20,31 @@ export default defineComponent({
     MainProfile,
     MainExperience,
     MainSkills
-
   }
 })
-
-
 </script>
 
 <template>
   <div id="container">
-
-  <!-- SIDE BAR -->
+    <!-- SIDE BAR -->
     <div class="side_Bar">
       <SideImage />
       <h1 class="h_Side">Контакты</h1>
-        <SideContact />
+      <SideContact />
       <h1 class="h_Side">Образование</h1>
-        <SideEducation />
+      <SideEducation />
     </div>
 
-  <!-- MAIN BAR -->
+    <!-- MAIN BAR -->
     <div class="main">
       <MainHeader />
-        <div id="info">
-        </div>
+      <div id="info"></div>
       <h1 class="h_Main">О Себе</h1>
-        <MainProfile />
+      <MainProfile />
       <h1 class="h_Main">Стаж</h1>
-        <MainExperience />
+      <MainExperience />
       <h1 class="h_Main">Skills</h1>
-        <MainSkills />
+      <MainSkills />
     </div>
   </div>
 </template>
@@ -60,7 +55,8 @@ export default defineComponent({
 }
 
 #container {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva,
+    Verdana, sans-serif;
   text-shadow: none;
   font-style: normal;
   overflow: scroll;
@@ -69,7 +65,6 @@ export default defineComponent({
   display: flex;
   padding: 0;
   margin: 0;
-  
 }
 
 /* SIDE BAR*/
@@ -86,7 +81,6 @@ export default defineComponent({
   color: rgb(211, 211, 211);
   /* min-width: fit-content; */
 }
-
 
 .h_Side {
   height: auto;
@@ -143,6 +137,4 @@ span {
   display: block;
   margin: 0 auto;
 }
-
-
 </style>

@@ -1,4 +1,13 @@
-<script lang="ts"></script>
+<script lang="ts">
+import { defineComponent } from 'vue'
+
+export default defineComponent({
+  name: 'MainSkills',
+  data() {
+    return {}
+  }
+})
+</script>
 
 <template>
   <div class="experience">
@@ -9,7 +18,6 @@
         </div>
         <span class="position"
           >Старший участка металлообработки
-          <!-- <div class="empty"></div> -->
           <span
             >Запуск и наладка производственной линии в сфере металлообработки. Создание и управление
             командой специалистов. Поддержание рабоче-дружеской атмосферы внутри коллектива. Поиск
@@ -17,8 +25,6 @@
           >
         </span>
       </div>
-      <!-- <div class="empty"></div> -->
-      <!-- <hr> -->
       <div class="one_Company">
         <div class="company_Name">
           Обработка листовых материалов
@@ -26,21 +32,18 @@
         </div>
         <span class="position"
           >Программист-наладчик станков с ЧПУ
-          <!-- <div class="empty"></div> -->
           <span
             >Пуско-наладочные работы на новых и уже имеющихся станках с ЧПУ, подготовка управляющих
             программ для работы на них при помощи CAD-программ.</span
           >
         </span>
       </div>
-      <!-- <div class="empty"></div> -->
       <div class="one_Company">
         <div class="company_Name">
           Магазин рыболовной экипировки <span class="year">«Farlows» 2016-2018</span>
         </div>
         <span class="position"
           >Контент-менеджер
-          <!-- <div class="empty"></div> -->
           <span
             >Работа с сайтом на CMS Bitrix, подготовка изображений в Adobe Photoshop. Наполнение
             сайта контентом, коммуникация с поставщиками.</span

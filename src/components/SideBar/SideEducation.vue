@@ -1,4 +1,13 @@
-<script lang="ts"></script>
+<script lang="ts">
+import { defineComponent } from 'vue'
+
+export default defineComponent({
+  name: 'SideEducation',
+  data() {
+    return {}
+  }
+})
+</script>
 
 <template>
   <div class="education">
@@ -42,5 +51,4 @@
   height: auto; */
   /* background-size: contain */
 }
-
 </style>

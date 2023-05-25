@@ -1,4 +1,13 @@
-<script setup lang="ts"></script>
+<script lang="ts">
+import { defineComponent } from 'vue'
+
+export default defineComponent({
+  name: 'SideContact',
+  data() {
+    return {}
+  }
+})
+</script>
 
 <template>
   <div class="contact">
@@ -29,5 +38,4 @@
 .ul_Side {
   padding-left: 14px;
 }
-
 </style>

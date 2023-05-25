@@ -1,59 +1,65 @@
 <script lang="ts">
+import { defineComponent } from 'vue'
 
+export default defineComponent({
+  name: 'MainSkills',
+  data() {
+    return {}
+  }
+})
 </script>
 
 <template>
-    <div class="all_Skill">
+  <div class="all_Skill">
     <div class="one_Skill">
-        <div class="name_Skill">HTML</div>
+      <div class="name_Skill">HTML</div>
 
-        <div class="point">
+      <div class="point">
         <span class="circle"></span> <span class="circle"></span> <span class="circle"></span>
         <span class="circle"></span>
-        </div>
+      </div>
     </div>
     <div class="one_Skill">
-        <div class="name_Skill">CSS</div>
+      <div class="name_Skill">CSS</div>
 
-        <div class="point">
+      <div class="point">
         <span class="circle"></span> <span class="circle"></span> <span class="circle"></span>
         <span class="circle"></span>
-        </div>
+      </div>
     </div>
     <div class="one_Skill">
-        <div class="name_Skill">JavaScript</div>
-        <div class="point">
+      <div class="name_Skill">JavaScript</div>
+      <div class="point">
         <span class="circle"></span> <span class="circle"></span> <span class="circle"></span>
         <span class="empty_Circle"></span>
-        </div>
+      </div>
     </div>
     <div class="one_Skill">
-        <div class="name_Skill">GIT</div>
-        <div class="point">
+      <div class="name_Skill">GIT</div>
+      <div class="point">
         <span class="circle"></span> <span class="circle"></span> <span class="circle"></span>
         <span class="empty_Circle"></span>
-        </div>
+      </div>
     </div>
     <div class="one_Skill">
-        <div class="name_Skill">Vue.Js</div>
-        <div class="point">
+      <div class="name_Skill">Vue.Js</div>
+      <div class="point">
         <span class="circle"></span> <span class="circle"></span>
         <span class="circle empty empty_Circle"></span> <span class="empty_Circle"></span>
-        </div>
+      </div>
     </div>
     <div class="one_Skill">
-        <div class="name_Skill">Photoshop</div>
-        <div class="point">
+      <div class="name_Skill">Photoshop</div>
+      <div class="point">
         <span class="circle"></span> <span class="circle"></span> <span class="circle"></span>
         <span class="empty_Circle"></span>
-        </div>
+      </div>
     </div>
-    </div>
-
+  </div>
 </template>
 
 <style scoped>
-    .skills {
+.skills {
   position: relative;
   padding: 0 auto;
 }
@@ -94,7 +100,6 @@
   margin: 0;
   justify-content: center;
   align-items: center;
-
 }
 .point {
   display: flex;

@@ -1,4 +1,13 @@
-<script lang="ts"></script>
+<script lang="ts">
+import { defineComponent } from 'vue'
+
+export default defineComponent({
+  name: 'MainHeader',
+  data() {
+    return {}
+  }
+})
+</script>
 
 <template>
   <div class="header">

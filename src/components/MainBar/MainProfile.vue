@@ -1,4 +1,13 @@
-<script lang="ts"></script>
+<script lang="ts">
+import { defineComponent } from 'vue'
+
+export default defineComponent({
+  name: 'MainProfile',
+  data() {
+    return {}
+  }
+})
+</script>
 
 <template>
   <span class="profile">
